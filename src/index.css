@@ -1,0 +1,99 @@
+/* 초기화 */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #374151;
+  font-family: "pretendard", sans-serif;
+  line-height: 1.2;
+}
+
+input,
+button {
+  font-family: "pretendard", sans-serif;
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: #374151;
+  text-decoration: none;
+}
+
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dd,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+tr,
+th,
+td,
+form,
+select,
+textarea,
+fieldset,
+legend,
+figure,
+figcaption,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.App {
+  padding: 0 0 100px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+ul {
+  margin: 20px 0;
+}
+
+li {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
