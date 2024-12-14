@@ -30,7 +30,7 @@ function App() {
         </OutlinedButton>{" "}
         <br />
         <OutlinedButton
-          iconUrl="/images/add_icon.png"
+          iconUrl="https://pss7.github.io/commoncomponent/images/add_icon.png"
           iconWidth="18px"
           iconHeight="17px"
           height="28px"
@@ -38,7 +38,7 @@ function App() {
           <span>OutlinedButton</span>
         </OutlinedButton>{" "}
         <br />
-        <OutlinedButton iconUrl="/images/add_icon.png">
+        <OutlinedButton iconUrl="https://pss7.github.io/commoncomponent/images/add_icon.png">
           <span>OutlinedButton</span>
         </OutlinedButton>
         <h2 style={{ margin: "30px 0 15px" }}>DeleteIconButton</h2>

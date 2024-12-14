@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import selectArrowIcon from "../../assets/images/select_arrow_icon01.png";
+import selectArrowHoverIcon from "../../assets/images/select_arrow_icon02.png";
 
 const DropdownContainer = styled.div`
   position: relative;
@@ -40,7 +42,7 @@ const SelectOption = styled.button`
     transform: translateY(-50%);
     width: 14px;
     height: 8px;
-    background: url(/images/select_arrow_icon01.png) no-repeat;
+    background: url(${selectArrowIcon}) no-repeat;
   }
 
   &:disabled {
@@ -50,7 +52,7 @@ const SelectOption = styled.button`
   }
 
   &:disabled::after {
-    background: url(/images/select_arrow_icon02.png) no-repeat;
+    background: url(${selectArrowHoverIcon}) no-repeat;
   }
 `;
 

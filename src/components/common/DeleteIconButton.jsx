@@ -1,4 +1,6 @@
-import styled from "styled-components"
+import styled from "styled-components";
+import deleteIcon from "../../assets/images/delete_icon.png";
+import deleteHoverIcon from "../../assets/images/delete_hover_icon.png";
 
 const DeleteIconButton = styled.button`
 
@@ -6,12 +8,12 @@ const DeleteIconButton = styled.button`
   width: 36px;
   height: 36px;
   border: 1px solid #ccc;
-  background: url(images/delete_icon.png)no-repeat center;
+  background: url(${deleteIcon})no-repeat center;
   border-radius: 6px;
   transition: all 0.3s;
-  
+
   &:disabled{
-     background: #ccc url(images/delete_hover_icon.png)no-repeat center;
+     background: #ccc url(${deleteHoverIcon})no-repeat center;
      border:0;
      cursor: auto;
   }
