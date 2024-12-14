@@ -15,7 +15,7 @@ function App() {
         <h2 style={{ margin: "30px 0 15px" }}>OutlinedButton</h2>
         <OutlinedButton height="56px">
           <span>OutlinedButton</span>
-        </OutlinedButton>{" "}
+        </OutlinedButton>
         <br />
         <OutlinedButton height="56px" disabled>
           <span>Disabled</span>
@@ -23,11 +23,11 @@ function App() {
         <br />
         <OutlinedButton height="40px">
           <span>OutlinedButton</span>
-        </OutlinedButton>{" "}
+        </OutlinedButton>
         <br />
         <OutlinedButton height="36px">
           <span>OutlinedButton</span>
-        </OutlinedButton>{" "}
+        </OutlinedButton>
         <br />
         <OutlinedButton
           iconUrl="https://pss7.github.io/commoncomponent/images/add_icon.png"
@@ -36,7 +36,7 @@ function App() {
           height="28px"
         >
           <span>OutlinedButton</span>
-        </OutlinedButton>{" "}
+        </OutlinedButton>
         <br />
         <OutlinedButton iconUrl="https://pss7.github.io/commoncomponent/images/add_icon.png">
           <span>OutlinedButton</span>
