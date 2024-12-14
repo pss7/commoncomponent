@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/commoncomponent/static/css/main.aa32b449.css",
+    "main.js": "/commoncomponent/static/js/main.b61754ae.js",
+    "index.html": "/commoncomponent/index.html",
+    "main.aa32b449.css.map": "/commoncomponent/static/css/main.aa32b449.css.map",
+    "main.b61754ae.js.map": "/commoncomponent/static/js/main.b61754ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa32b449.css",
+    "static/js/main.b61754ae.js"
+  ]
+}
