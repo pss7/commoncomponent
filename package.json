@@ -17,6 +17,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://pss7.github.io/commoncomponent",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -34,6 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://pss7.github.io/commoncomponent"
+  }
 }
