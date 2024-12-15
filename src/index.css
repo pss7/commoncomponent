@@ -83,22 +83,15 @@ li {
   padding: 0 20px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
+.box {
+  font-size: 20px;
+  font-weight: 700;
 }
 
-ul.infoList {
+.box ul {
   margin: 20px 0;
 }
 
-ul.infoList li {
+.box ul li {
   margin-bottom: 25px;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.text {
-  font-size: 20px;
-  font-weight: 700;
 }

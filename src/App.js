@@ -48,32 +48,34 @@ function App() {
         <DeleteIconButton disabled />
         <br />
         <br />
-        <h1 style={{ margin: "30px 0" }}>Props</h1>
-        <h2>01.OutlinedButton</h2>
-        <ul className="infoList">
-          <li>
-            1.height 적용 Props
+        <div className="box">
+          <h1 style={{ margin: "30px 0" }}>Props</h1>
+          <h2>01.OutlinedButton</h2>
+          <ul className="infoList">
+            <li>
+              1.height 적용 Props
+              <br />
+              height="56px" / height="40px" / height="36px" / height="28px"
+            </li>
+            <li>
+              2.disabled 적용 Props <br />
+              컴포넌트 disabled 적용
+            </li>
+          </ul>
+          <p>
+            *아이콘 적용 시 OutlinedButton span 태그안에 img태그 생성 후 경로에{" "}
             <br />
-            height="56px" / height="40px" / height="36px" / height="28px"
-          </li>
-          <li>
-            2.disabled 적용 Props <br />
-            컴포넌트 disabled 적용
-          </li>
-        </ul>
-        <p className="text">
-          *아이콘 적용 시 OutlinedButton span 태그안에 img태그 생성 후 경로에{" "}
-          <br />
-          addIcon 불러와서 적용 alt="추가 아이콘" 작은 아이콘 적용 시 <br />
-          OutlinedButton 컴포넌트에 smallIcon Props 적용
-        </p>
-        <h2 style={{ margin: "60px 0 0" }}>02.DeleteIconButton</h2>
-        <ul className="infoList">
-          <li>
-            disabled 적용 Props <br />
-            컴포넌트 disabled 적용
-          </li>
-        </ul>
+            addIcon 불러와서 적용 alt="추가 아이콘" 작은 아이콘 적용 시 <br />
+            OutlinedButton 컴포넌트에 smallIcon Props 적용
+          </p>
+          <h2 style={{ margin: "60px 0 0" }}>02.DeleteIconButton</h2>
+          <ul className="infoList">
+            <li>
+              disabled 적용 Props <br />
+              컴포넌트 disabled 적용
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
