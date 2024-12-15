@@ -88,12 +88,17 @@ table {
   border-collapse: collapse;
 }
 
-ul {
+ul.infoList {
   margin: 20px 0;
 }
 
-li {
+ul.infoList li {
   margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text {
   font-size: 20px;
   font-weight: 700;
 }

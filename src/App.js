@@ -2,6 +2,7 @@ import Input from "./components/common/Inpunt";
 import CustomSelect from "./components/common/CustomSelect";
 import OutlinedButton from "./components/common/OutlinedButton";
 import DeleteIconButton from "./components/common/DeleteIconButton";
+import addIcon from "./assets/images/add_icon.png";
 
 function App() {
   return (
@@ -29,17 +30,18 @@ function App() {
           <span>OutlinedButton</span>
         </OutlinedButton>
         <br />
-        <OutlinedButton
-          iconUrl="https://pss7.github.io/commoncomponent/images/add_icon.png"
-          iconWidth="18px"
-          iconHeight="17px"
-          height="28px"
-        >
-          <span>OutlinedButton</span>
+        <OutlinedButton smallIcon height="28px">
+          <span>
+            <img src={addIcon} alt="추가 아이콘" />
+            OutlinedButton
+          </span>
         </OutlinedButton>
         <br />
-        <OutlinedButton iconUrl="https://pss7.github.io/commoncomponent/images/add_icon.png">
-          <span>OutlinedButton</span>
+        <OutlinedButton>
+          <span>
+            <img src={addIcon} alt="추가 아이콘" />
+            OutlinedButton
+          </span>
         </OutlinedButton>
         <h2 style={{ margin: "30px 0 15px" }}>DeleteIconButton</h2>
         <DeleteIconButton /> <br />
@@ -48,29 +50,25 @@ function App() {
         <br />
         <h1 style={{ margin: "30px 0" }}>Props</h1>
         <h2>01.OutlinedButton</h2>
-        <ul>
+        <ul className="infoList">
           <li>
             1.height 적용 Props
-            <br />= height="56px" / height="40px" / height="36px" /
-            height="28px"
+            <br />
+            height="56px" / height="40px" / height="36px" / height="28px"
           </li>
           <li>
             2.disabled 적용 Props <br />
             컴포넌트 disabled 적용
           </li>
-          <li>
-            3.큰 아이콘 적용 Props <br />
-            iconUrl="경로"
-          </li>
-          <li>
-            4.작은 아이콘 적용 Props (height가 28px인 OutlinedButton에 적용됨)
-            <br />
-            iconWidth="18px" <br />
-            iconHeight="17px"
-          </li>
         </ul>
+        <p className="text">
+          *아이콘 적용 시 OutlinedButton span 태그안에 img태그 생성 후 경로에{" "}
+          <br />
+          addIcon 불러와서 적용 alt="추가 아이콘" 작은 아이콘 적용 시 <br />
+          OutlinedButton 컴포넌트에 smallIcon Props 적용
+        </p>
         <h2 style={{ margin: "60px 0 0" }}>02.DeleteIconButton</h2>
-        <ul>
+        <ul className="infoList">
           <li>
             disabled 적용 Props <br />
             컴포넌트 disabled 적용

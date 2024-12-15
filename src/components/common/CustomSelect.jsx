@@ -73,7 +73,6 @@ const SelectOptionList = styled.ul`
 const OptionItem = styled.li`
   padding: 12px 16px;
   color: #181818;
-
   &:hover {
     background-color: #f6f6f6;
   }

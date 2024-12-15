@@ -4,8 +4,6 @@ const buttonStyles = {
   "56px": {
     fontWeight: 600,
   },
-  "40px": {},
-  "36px": {},
   "28px": {
     fontSize: "14px",
   },
@@ -22,29 +20,19 @@ const OutlinedButton = styled.button`
   font-weight: ${(props) => buttonStyles[props.height]?.fontWeight || "400"};
   color: #181818;
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   & > span {
-    position: relative;
-    padding-left: ${(props) => {
-      if (props.iconUrl) {
-        return props.iconWidth < "20px" ? `23px` : "35px";
-      }
-      return "0";
-    }};
+    display: flex;
+    align-items: center;
   }
 
-  & > span:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    width: ${(props) => props.iconWidth || "22px"};
-    height: ${(props) => props.iconHeight || "21px"};
-    background-image: ${(props) =>
-      props.iconUrl ? `url(${props.iconUrl})` : "none"};
-    background-size: cover;
-    background-position: center;
+  & > span > img {
+    width: ${(props) => (props.smallIcon ? "18px;" : "22px")};
+    height: ${(props) => (props.smallIcon ? "17px" : "21px")};
+    margin-right: 10px;
   }
 
   &:hover {
@@ -57,7 +45,6 @@ const OutlinedButton = styled.button`
     color: #fff;
     cursor: auto;
   }
-
 `;
 
 export default OutlinedButton;
